@@ -1,0 +1,1 @@
+a uninstall Nodejs script
