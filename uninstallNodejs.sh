@@ -1,5 +1,5 @@
 #!/bin/bash
-lsbom -f -l -s -pf /var/db/receipts/org.nodejs.pkg.bom \
+lsbom -f -l -s -pf /var/db/receipts/org.nodejs.node.pkg.bom \
 | while read i; do
   sudo rm /usr/local/${i}
 done
